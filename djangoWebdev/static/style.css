@@ -1,18 +1,18 @@
 body{
     background-color: #0b1d22;
     color:aliceblue;
+    text-align-last: center;
 }
 h1{
     text-align: center;
     font-size: 2em;
 }
+.navigation{
+    text-align: center;
+    font-size: 1.5em;
+    color:#c5f3ff
+}
 a{
     color: rgb(253, 113, 19);
-    text-align: center;
-}
-.contact{
-    text-align: center;
-}
-#contact{
     text-align: center;
 }
