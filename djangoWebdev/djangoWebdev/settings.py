@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'appOne', #New app made and metioned in INSTALLED_APPS SECTION HERE
+    'appTwo',
 ]
 
 MIDDLEWARE = [
