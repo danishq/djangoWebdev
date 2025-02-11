@@ -12,7 +12,10 @@
 
 <body>
     <h1>Chai aur Django</h1>
-    <a ref="website/contact.html">Contact</a>
+    <a href={% url 'contact' %}>contact</a>
+    {% comment %} <a href={% url 'secondApp/indexTwo' %}> App Two/indexTwo</a> {% endcomment %}
+    <a href={% url 'indexTwo' %}> <br> /indexTwo</a>
+
 </body>
 
 
