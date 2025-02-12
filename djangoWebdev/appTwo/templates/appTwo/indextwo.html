@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Two</title>
-</head>
-<body>
-   <a href={%url 'contact' %}>link to contact page
-   </a> 
-   <a href={% url 'home' %}> HOME PAGE</a>
-   <a href={% url 'index' %}>index page first</a>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block title %}a2 index{% endblock %}
+{% block content %}
+<h1>Arham is watching doraemon</h1>
+<a href="https://www.dailymotion.com/video/x9dwkp6"> This is Doraemon link</a>
+<p class = "arham">Arham studies in second class <br> Arham like to watch horrid henry
+<br>
+Arham will come in Third Class  <br>
+Arham Studies in ST. Pius School.
+</p>
+{% endblock %}
