@@ -1,0 +1,3 @@
+This project is a demo. Taught by chai aur code.
+First time using Django and tailwind css.
+Conda env : test
